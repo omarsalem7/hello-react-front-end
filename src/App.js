@@ -12,7 +12,6 @@ function App() {
     dispatch(fetchRocketsDispatch());
   }, []);
   const message = useSelector((state) => state.messagesReducer);
-  console.log(message);
   return (
     <div className="App">
       <BrowserRouter>
