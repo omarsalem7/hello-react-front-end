@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Message = ({ msg }) => <div>{msg}</div>;
 
 Message.propTypes = {
-  msg: PropTypes.string,
+  msg: PropTypes.string.isRequired,
 };
 
 export default Message;
