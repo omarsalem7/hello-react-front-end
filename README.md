@@ -25,7 +25,6 @@ $ npm install
 $ npm start
 ```
 
-If you need to install redux just write this command: `npm i redux react-redux --save`
 
 
 ## Authors
